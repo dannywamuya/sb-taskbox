@@ -27,7 +27,7 @@ export default function Task({ task: { id, title, state }, onArchiveTask, onPinT
           readOnly={true}
           name="title"
           placeholder="Input title"
-         style={{ background: 'red' }}
+         style={{ background: '#f1f1f1' }}
         />
       </label>
 
